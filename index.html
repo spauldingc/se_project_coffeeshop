@@ -79,7 +79,36 @@
    <span>~15 min</span> </p></div>
   </div>
   </section>
-<section id="id-reserve" class="reservation"></section>
+<section id="id-reserve" class="reservation">
+  <h1 class="reservation__title">Book a table</h1>
+  <div class="reservation__form">
+      <form class="form">
+        <fieldset class="form__fieldset">
+           <label for="name" class="form__label">Name *</label>
+           <input id="name" type="text" class="form__input" placeholder="Name Surname" required />
+            <label for="number" class="form__label">Number of Guests *</label>
+          <input id="number" type="number" min="1" max="8" class="form__input" placeholder="1-8" required/>
+                  <label for="datetime" class="form__label">Date & time *</label>
+                    <input id="datetime" type="datetime-local"  class="form__input" required/>
+                   <label for="email" class="form__label">Your email *</label>
+                    <input id="email" type="email"  class="form__input" placeholder="email@email.com" required/>
+
+                    <button type="submit" class="form__button">Book a table</button>
+                     <label for="agree" class="form__label">I agree with the terms of use
+                    </label>
+                    <input type="checkbox"
+                    class="form__checkbox"
+                    name="agree"
+                    id="agree" required/>
+
+
+        </fieldset>
+
+
+      </form>
+
+  </div>
+</section>
 <section id="id-menu" class="menu"></section>
 <section  id="id-about" class="about"></section>
 </main>
