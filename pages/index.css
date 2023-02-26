@@ -134,6 +134,7 @@ background-position: center;
   max-width: 480px;
   max-height: 273px;
   padding: 0 0 24px 0;
+  border:0px;
 }
 
 .recipes__video-caption {
