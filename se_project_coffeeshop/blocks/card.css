@@ -1,0 +1,30 @@
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.card:first-child {
+  padding-right: 100px;
+}
+
+.card:last-child {
+  padding-top: 100px;
+}
+
+.card__title{font-family: "Inter"; font-style: normal; font-weight: bold; font-size: 20px; line-height: 30px;padding-bottom:32px;}
+
+.card__list{list-style-type: none; display: flex; padding-left: 0;
+  flex-direction: column;
+  margin: 0; }
+
+.card__list-item{display: flex;font-family: "Noto Serif"; font-style: normal; font-weight: normal;
+  font-size: 16px; line-height: 20px;
+  align-items: flex-end;
+padding-bottom:16px;}
+
+.card__list-divider{display: block;
+
+  border-bottom: 1px solid #000;
+  flex-grow: 1;}
