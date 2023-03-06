@@ -23,17 +23,18 @@ flex-direction:column;
   font-family: "Noto Serif"; font-style: normal; font-weight: normal; font-size: 20px; line-height: 30px;
   text-align: center;
   margin: auto;
+  padding-bottom:100px;
 
   }
 
 .menu__cards{
   display: flex;
-  justify-content: space-evenly;
-  gap: 100px;
-  flex-flow: row wrap;
-  width: 540px;
-
+  justify-content: center;
+  column-gap:100px;
+  flex-wrap: wrap;
 }
+
+
 
 
 
