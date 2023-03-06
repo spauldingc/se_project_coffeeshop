@@ -10,9 +10,7 @@
   }
 }
 
-.about__circle_animation_blurred {
-  animation: pulsate 1.3s ease-in-out 0s infinite;
-}
+
 
 
 .about{background-color: #0A2850;
@@ -36,6 +34,10 @@ z-index:1;}
   top: -152px;
   position: absolute;
   z-index: 0;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out 0s infinite;
 }
 
 .about__content{
