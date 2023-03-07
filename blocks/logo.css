@@ -1,6 +1,8 @@
 .logo {
-    position: relative;
-    width: 125px;
-    height: 142px;
-    left: 30px;
-  }
+  position: absolute;
+  width: 125px;
+  height: 142px;
+  left: 30px;
+  top: 30px;
+  z-index: 2;
+}
